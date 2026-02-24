@@ -1,9 +1,9 @@
 import { motion } from "framer-motion";
-import stoneWork5 from "@/assets/stone-work-5.jpg";
+import stoneWork2 from "@/assets/stone-work-2.jpg";
+import stoneWork4 from "@/assets/stone-work-4.jpg";
 import stoneWork6 from "@/assets/stone-work-6.jpg";
-import stoneWork3 from "@/assets/stone-work-3.jpg";
 
-const images = [stoneWork5, stoneWork6, stoneWork3];
+const images = [stoneWork2, stoneWork4, stoneWork6];
 
 const Gallery = () => {
   return (

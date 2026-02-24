@@ -51,10 +51,6 @@ const Contact = () => {
           className="flex flex-wrap justify-center gap-8 mt-12 font-body text-muted-foreground"
         >
           <div className="flex items-center gap-2">
-            <Clock className="w-4 h-4 text-gold" />
-            <span>Season: May – September</span>
-          </div>
-          <div className="flex items-center gap-2">
             <Car className="w-4 h-4 text-gold" />
             <span>Free parking available</span>
           </div>
