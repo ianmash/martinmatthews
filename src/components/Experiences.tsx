@@ -145,8 +145,7 @@ const Experiences = () => {
             className="card-stone rounded-sm p-8 max-w-2xl mx-auto"
           >
             <p className="font-body text-muted-foreground text-center mb-8">
-              Book a private experience for your group (4–8 guests). All private experiences are
-              subject to minimum numbers or the equivalent in charges.
+              Book a private experience for yourself or a small group.
             </p>
 
             <form onSubmit={handlePrivateSubmit} className="space-y-5">
