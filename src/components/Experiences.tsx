@@ -2,12 +2,7 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 
 const scheduledDates = [
-  { date: "June 14, 2026", day: "Saturday", spotsLeft: 4 },
-  { date: "June 28, 2026", day: "Saturday", spotsLeft: 6 },
-  { date: "July 12, 2026", day: "Saturday", spotsLeft: 8 },
-  { date: "July 26, 2026", day: "Saturday", spotsLeft: 5 },
-  { date: "August 9, 2026", day: "Saturday", spotsLeft: 7 },
-  { date: "August 23, 2026", day: "Saturday", spotsLeft: 8 },
+  { date: "April 11, 2026", day: "Saturday", link: "https://www.eventbrite.ie/e/stories-in-stone-tickets-1983979035703" },
 ];
 
 const inclusions = [
@@ -120,9 +115,10 @@ const Experiences = () => {
                   <p className="font-body text-muted-foreground">{d.day} · 10:00 AM · 2 Hours</p>
                 </div>
                 <div className="flex items-center gap-4">
-                  <span className="font-body text-moss text-sm">{d.spotsLeft} spots left</span>
                   <a
-                    href={`mailto:mrtnmatthews@gmail.com?subject=${encodeURIComponent(`Booking: ${d.date} - Stories in Stone`)}&body=${encodeURIComponent(`Hi Martin,\n\nI'd like to book a spot for the Stories in Stone experience on ${d.date}.\n\nPlease let me know availability and next steps.\n\nThank you!`)}`}
+                    href={d.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="px-6 py-2 bg-gold text-earth font-display text-xs tracking-[0.15em] uppercase hover:bg-gold-light transition-colors duration-300 rounded-sm"
                   >
                     Book Now
