@@ -126,9 +126,6 @@ const Experiences = () => {
                 </div>
               </div>
             ))}
-            <p className="text-center font-body text-sm text-muted-foreground mt-6">
-              Season: May to September · 4–8 guests per session
-            </p>
           </motion.div>
         )}
 
